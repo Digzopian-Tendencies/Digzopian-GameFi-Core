@@ -1,0 +1,29 @@
+{
+  "name": "digzopian-gamefi-core",
+  "version": "0.1.0",
+  "description": "Core GameFi logic, NFT economy, and cultural mechanics for the Digzopian Protocol.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "digzopian",
+    "gamefi",
+    "nft",
+    "sovereignty",
+    "hermetic"
+  ],
+  "author": "Digzopian Architect",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^18.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
